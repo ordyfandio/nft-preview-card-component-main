@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Fraunces', serif;
+    background-color: hsl(217, 54%, 11%);
+    position: relative;
+    width: 100%;
+}
+section{
+    position: absolute;
+    top: 40px;
+    left: 580px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 6px 0;
+    width: 23%;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+}
+.img_hero{
+    margin-top: 10px;
+    width: 300px;
+    height: 280px;
+    margin-left: 25px;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+}
+.div_hero{
+    margin-left: 28px;
+    padding: 10px 0;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.1em;
+}
+p{
+    margin-top: 20px;
+    color: hsl(215, 51%, 70%);
+    /* width: 90%; */
+    font-size: 18px;
+}
+.div_cadre{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.div_cadre>.cadre2{
+    margin-right: 50px;
+}
+.cadre1{
+    display: flex;
+}
+.cadre1>aside{
+    color: hsl(178, 100%, 50%);
+    margin-left: 10px;
+}
+.cadre2{
+    display: flex;
+}
+.cadre2>aside{
+    color: hsl(215, 51%, 70%);
+    margin-left: 10px;
+}
+hr{
+    width: 280px;
+    border: 0.1em solid hsla(0, 0%, 100%, 0.225); 
+}
+.div_avat{
+    display: flex;
+    margin-top: 10px;
+}
+.img_avatar{
+    width: 30px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius:100%;
+}
+article{
+    margin-left: 20px;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+}
+strong{
+    color: hsl(215, 51%, 70%);
+}
+
+@media screen and (max-width:376px){
+    section{
+        position: absolute;
+        top: 40px;
+        left: 50px;
+        background-color: hsl(216, 50%, 16%);
+        padding: 6px 0;
+        width: 80%;
+        border-top-left-radius: 0.8rem;
+        border-top-right-radius: 0.8rem;
+        border-bottom-left-radius: 0.8rem;
+        border-bottom-right-radius: 0.8rem;
+    }
+    .img_hero{
+        margin-top: 10px;
+        width: 270px;
+        height: 200px;
+        margin-left: 12px;
+        border-top-left-radius: 0.8rem;
+        border-top-right-radius: 0.8rem;
+        border-bottom-left-radius: 0.8rem;
+        border-bottom-right-radius: 0.8rem;
+    }
+    .div_hero{
+        margin-left: 10px;
+        padding: 10px 0;
+    }
+    h1{
+        color: hsl(0, 0%, 100%);
+        font-size: 1.1em;
+    }
+    p{
+        margin-top: 20px;
+        color: hsl(215, 51%, 70%);
+        width: 90%;
+        font-size: 18px;
+        font-size: 0.8em;
+    }
+    .div_cadre{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+    }
+    .cadre1>aside{
+        color: hsl(178, 100%, 50%);
+        margin-left: 10px;
+        font-size: 0.9em;
+    }
+    .cadre1>img{
+        width: 8px;
+        height: 15px;
+    }
+    .cadre2>img{
+        width: 18px;
+        height: 15px;
+    }
+    .cadre2>aside{
+        font-size: 0.9em;
+    }
+    hr{
+        margin-top: 10px;
+        width: 280px;
+        border: 0.2px solid hsla(0, 0%, 100%, 0.225); 
+    }
+    .div_avat{
+        display: flex;
+        margin-top: 20px;
+    }
+    .img_avatar{
+        width: 40px;
+        border: 1px solid hsl(0, 0%, 100%);
+        border-radius:100%;
+    }
+    article{
+        margin-left: 20px;
+        align-items: center;
+        color: hsl(0, 0%, 100%);
+        font-size: 1.1em;
+    }
+}
